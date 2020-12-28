@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cgy-tool" />
+        <module name="cgy-db" />
+        <module name="cgy-candao" />
       </profile>
     </annotationProcessing>
   </component>

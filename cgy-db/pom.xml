@@ -32,21 +32,6 @@
 
 
     <dependencies>
- <!--       <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-core</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-setting</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-log</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>-->
 
         <!-- 数据库连接池 -->
         <dependency>
