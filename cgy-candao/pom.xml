@@ -16,6 +16,7 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+<<<<<<< HEAD
     <dependencies>
         <!-- xxx -->
         <dependency>
@@ -91,4 +92,6 @@
         </dependency>
     </dependencies>
 
+=======
+>>>>>>> origin/main
 </project>
