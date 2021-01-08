@@ -6,9 +6,16 @@
 
     <groupId>cgy.cgy-tool</groupId>
     <artifactId>cgy-tool</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
-    <description>Hutool是一个小而全的Java工具类库，通过静态方法封装，降低相关API的学习成本，提高工作效率，使Java拥有函数式语言般的优雅，让Java语言也可以“甜甜的”。</description>
-<!--    <url></url>-->
+    <description>一个小而全的个人工具类库，通过静态方法封装，降低相关API的学习成本，提高工作效率。</description>
+    <url>https://github.com/cgyPension/cgy-tool.git</url>
+
+    <modules>
+        <module>cgy-candao</module>
+        <module>cgy-db</module>
+        <module>cgy-core</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
