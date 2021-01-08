@@ -39,9 +39,6 @@ public class RuntimeUtil {
 	*@Param: []
 	*@return: print
 	*/
-	public static void main(String[] args) {
-		getAllJvmMessages();
-	}
 	public static void getAllJvmMessages(){
 		System.out.println("JVM可用的处理器数量（一般为CPU核心数）："+Runtime.getRuntime().availableProcessors());
 		System.out.println("JVM中剩余的内存数，单位byte ："+Runtime.getRuntime().freeMemory());
