@@ -23,7 +23,7 @@ spark-submit --class bi.special.pension.Dine_Takeout_Statistical \
 
 object JarSubmit {
   def main(args: Array[String]): Unit = {
-    if (args.length < 1) {
+    if (args == null || args.length == 0) {
       println("参数不全..")
       System.exit(-1)
     }
